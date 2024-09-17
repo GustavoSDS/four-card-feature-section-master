@@ -137,6 +137,10 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
+    .container {
+        width: fit-content;
+        margin: 5rem auto 4.9375rem;
+    }
     header {
         margin-bottom: 3.9375rem;
         padding: 0 .4375rem;
@@ -155,7 +159,7 @@ main {
         align-items: center;
         justify-content: center;
         gap: 1.875rem;
-        max-width: 1116px;
+        max-width: 1110px;
 
         & .card {
             min-width: 21.875rem;
